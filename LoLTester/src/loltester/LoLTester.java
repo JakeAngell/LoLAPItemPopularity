@@ -25,7 +25,7 @@ public class LoLTester {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        LeagueMatchAPIMedium leajServiceLayer = new LeagueMatchAPIMedium("9d8077de-308c-4e76-bb18-ebea6c50a570");
+        LeagueMatchAPIMedium leajServiceLayer = new LeagueMatchAPIMedium();
 
         ItemLookup itemLookup = new ItemLookup();
         initItemLookup(itemLookup, "511Items.txt");
